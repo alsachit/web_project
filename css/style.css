@@ -1,0 +1,60 @@
+
+body {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    color:#c72b2b;
+}
+
+input:focus {
+    border:none;
+}
+
+.document-head {
+    background-color: #67686d;
+}
+
+h1.page_title {
+    color: #ffffff;
+    text-align: center;
+}
+
+.page-intro {
+    color:white;
+    text-align: center;
+}
+
+.newsletter-form {
+    text-align: center;
+}
+
+.form-input {
+    background-color: #a7a9b1;
+    border: none;
+    padding: 10px;
+    height: 20px;
+    width: 250px;
+}
+
+.form-input::placeholder {
+    color:white;
+}
+
+.form-input:focus {
+    outline: none;
+}
+
+.submit-button {
+    background-color:#1073c4;
+    color:#ffffff;
+    font-size: 1.1em;
+    border:none;
+    padding: 10px 30px 10px 30px;
+    border-radius: 18px;
+}
+
+.submit-button:focus {
+    outline: none;
+}
